@@ -1,11 +1,12 @@
 # apiuser
-Nisum Api REST
+Nisum Api REST.
+Se expone una Api REST con un endpoint lo cual crea un usuario en la base de datos H2
 
 
 ## Instalación 📋
 * Descargue los archivos fuentes
-* La crea la base de datos y las tablas al iniciarse
-* Despues de correr la aplicación puede ver la base de datos local en http://localhost:8080/h2-console/
+* Cuando se corre la aplicación, la base de datos y las tablas se crean automaticamente gracias al ORM de Hibernate
+* Después de correr la aplicación puede ver la base de datos local en http://localhost:8080/h2-console/
 * Ingrese a la base de datos con los siguientes parametros 
 ```
 Driver Class:org.h2.Driver
@@ -14,7 +15,7 @@ User Name:api
 Password:api
 ```
 
-El respositorio gestiona las dependencias con Maven
+
 ## Tecnologias 🛠️
 ***
 A list of technologies used within the project:
