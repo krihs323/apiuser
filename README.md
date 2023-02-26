@@ -50,3 +50,7 @@ Con una herramienta para probar Apis como Postman podra realizar la prueba de la
 ```
 
 
+* Ejecute las pruebas unitarias con el comando o con el IDE de desarrollo
+```
+mvn test
+```
