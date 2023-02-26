@@ -1,0 +1,2 @@
+--INSERT INTO USER(id, name, email) VALUES('1', 'cristian leandro botina caipe', 'cristian_botina@hotmail.com');
+--INSERT INTO PHONE(ID, CITY_CODE, CONTRY_CODE, NUMBER, PHONE_ID) VALUES('1', '2', '3', '3155828235', '1');
