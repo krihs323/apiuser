@@ -20,7 +20,7 @@ Password:api
 ***
 A list of technologies used within the project:
 * Spring Boot: Version 3.0.3
-* Java: Version 11 o supererior
+* Java: Version 17
 * Base de Datos: h2database
 * Maven: 4.0
 
@@ -54,3 +54,9 @@ Con una herramienta para probar Apis como Postman podra realizar la prueba de la
 ```
 mvn test
 ```
+
+## Documentación
+Para ver ka documentación de Swagger, revise los enlaces
+
+http:localhost:8080/v3/api-docs
+http:localhost:8080/swagger-ui/index.html

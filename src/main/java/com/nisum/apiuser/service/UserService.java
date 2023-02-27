@@ -20,7 +20,12 @@ public class UserService {
     @Autowired
     IPhone iPhone;
 
+    @Autowired
+    JwtUtilService jwtUtilService;
+
     public RespuestaDTO save(UserDTO userDTO){
+
+        //String jwt = jwtUtilService.generateToken();
 
         //Se le realiza transformacion para guardar en la base de datos
         User user = new User();
