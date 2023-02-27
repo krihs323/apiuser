@@ -14,7 +14,10 @@ JDBC URL:jdbc:h2:mem:testdb
 User Name:api
 Password:api
 ```
-
+* Puede ejecutar la aplicación desde el IDE o si tiene Maven instalado, ejecute el comando
+```
+    mvn clean install
+```
 
 ## Tecnologias 🛠️
 ***
@@ -55,8 +58,10 @@ Con una herramienta para probar Apis como Postman podra realizar la prueba de la
 mvn test
 ```
 
-## Documentación
+## Documentación 📖
 Para ver ka documentación de Swagger, revise los enlaces
 
 http:localhost:8080/v3/api-docs
 http:localhost:8080/swagger-ui/index.html
+
+Descargue la documentación de la API llamado api-documentation.pdf 
