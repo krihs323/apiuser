@@ -21,7 +21,7 @@ Password:api
 
 ## Tecnologias 🛠️
 ***
-A list of technologies used within the project:
+Lista de las tecnologías usadas en el proyecto:
 * Spring Boot: Version 3.0.3
 * Java: Version 17
 * Base de Datos: h2database
@@ -61,7 +61,7 @@ mvn test
 ## Documentación 📖
 Para ver ka documentación de Swagger, revise los enlaces
 
-http:localhost:8080/v3/api-docs
-http:localhost:8080/swagger-ui/index.html
+* http:localhost:8080/v3/api-docs
+* http:localhost:8080/swagger-ui/index.html
 
 Descargue la documentación de la API llamado api-documentation.pdf 
